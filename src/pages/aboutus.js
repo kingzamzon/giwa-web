@@ -53,7 +53,7 @@ export default class AboutUs extends React.Component {
                                     <h2>What you get if you start your business with us</h2>
                                 </div>
                                 <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibulum est mat tis effic iturut magna. Pellentesque sit amet tellus blandit. Etiam nec odio ves tibul. Nec odio vestibulum est mattis effic iturut magna. Pellente sque sita met tellus blandit. Etiam nec odio. Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibulum est mat tis effic iturut magna.</p>
-                                <a href="#" className="btn mosh-btn mt-50">Read More</a>
+                                <Link to="#" className="btn mosh-btn mt-50">Read More</Link>
                             </div>
                         </div>
                         <div className="col-12 col-md-6">
@@ -192,10 +192,10 @@ export default class AboutUs extends React.Component {
                                 <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque.</p>
                             </div>
                             <div className="team-social-info">
-                                <a href="#"><i className="fa fa-pinterest" aria-hidden="true"></i></a>
-                                <a href="#"><i className="fa fa-facebook" aria-hidden="true"></i></a>
-                                <a href="#"><i className="fa fa-twitter" aria-hidden="true"></i></a>
-                                <a href="#"><i className="fa fa-dribbble" aria-hidden="true"></i></a>
+                                <Link to="#"><i className="fa fa-pinterest" aria-hidden="true"></i></Link>
+                                <Link to="#"><i className="fa fa-facebook" aria-hidden="true"></i></Link>
+                                <Link to="#"><i className="fa fa-twitter" aria-hidden="true"></i></Link>
+                                <Link to="#"><i className="fa fa-dribbble" aria-hidden="true"></i></Link>
                             </div>
                         </div>
                         <div className="single-team-slide text-center">
@@ -208,10 +208,10 @@ export default class AboutUs extends React.Component {
                                 <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque.</p>
                             </div>
                             <div className="team-social-info">
-                                <a href="#"><i className="fa fa-pinterest" aria-hidden="true"></i></a>
-                                <a href="#"><i className="fa fa-facebook" aria-hidden="true"></i></a>
-                                <a href="#"><i className="fa fa-twitter" aria-hidden="true"></i></a>
-                                <a href="#"><i className="fa fa-dribbble" aria-hidden="true"></i></a>
+                                <Link to="#"><i className="fa fa-pinterest" aria-hidden="true"></i></Link>
+                                <Link to="#"><i className="fa fa-facebook" aria-hidden="true"></i></Link>
+                                <Link to="#"><i className="fa fa-twitter" aria-hidden="true"></i></Link>
+                                <Link to="#"><i className="fa fa-dribbble" aria-hidden="true"></i></Link>
                             </div>
                         </div>
                         <div className="single-team-slide text-center">
@@ -224,10 +224,10 @@ export default class AboutUs extends React.Component {
                                 <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque.</p>
                             </div>
                             <div className="team-social-info">
-                                <a href="#"><i className="fa fa-pinterest" aria-hidden="true"></i></a>
-                                <a href="#"><i className="fa fa-facebook" aria-hidden="true"></i></a>
-                                <a href="#"><i className="fa fa-twitter" aria-hidden="true"></i></a>
-                                <a href="#"><i className="fa fa-dribbble" aria-hidden="true"></i></a>
+                                <Link to="#"><i className="fa fa-pinterest" aria-hidden="true"></i></Link>
+                                <Link to="#"><i className="fa fa-facebook" aria-hidden="true"></i></Link>
+                                <Link to="#"><i className="fa fa-twitter" aria-hidden="true"></i></Link>
+                                <Link to="#"><i className="fa fa-dribbble" aria-hidden="true"></i></Link>
                             </div>
                         </div>
                         <div className="single-team-slide text-center">
@@ -240,10 +240,10 @@ export default class AboutUs extends React.Component {
                                 <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque.</p>
                             </div>
                             <div className="team-social-info">
-                                <a href="#"><i className="fa fa-pinterest" aria-hidden="true"></i></a>
-                                <a href="#"><i className="fa fa-facebook" aria-hidden="true"></i></a>
-                                <a href="#"><i className="fa fa-twitter" aria-hidden="true"></i></a>
-                                <a href="#"><i className="fa fa-dribbble" aria-hidden="true"></i></a>
+                                <Link to="#"><i className="fa fa-pinterest" aria-hidden="true"></i></Link>
+                                <Link to="#"><i className="fa fa-facebook" aria-hidden="true"></i></Link>
+                                <Link to="#"><i className="fa fa-twitter" aria-hidden="true"></i></Link>
+                                <Link to="#"><i className="fa fa-dribbble" aria-hidden="true"></i></Link>
                             </div>
                         </div>
                     </div>

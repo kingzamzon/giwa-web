@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import search_icon from "../img/core-img/search-icon.png";
 
 export default class HeaderComponent extends React.Component {
   render() {
@@ -10,11 +11,11 @@ export default class HeaderComponent extends React.Component {
             <div className="col-12 h-100">
               <div className="menu_area h-100">
                 <nav className="navbar h-100 navbar-expand-lg align-items-center">
-                  <a className="navbar-brand" href="index.html">
+                  <Link className="navbar-brand" to="/">
                     <span>
                       <i className="fa fa-tree"></i> Savvy Inc.
                     </span>
-                  </a>
+                  </Link>
                   <button
                     className="navbar-toggler"
                     type="button"
@@ -78,21 +79,21 @@ export default class HeaderComponent extends React.Component {
                         />
                         <button type="submit" className="d-none">
                           <img
-                            src="img/core-img/search-icon.png"
+                            src={search_icon}
                             alt="Search"
                           />
                         </button>
                       </form>
                     </div>
                     <div className="search-button">
-                      <a href="#" id="search-btn">
-                        <img src="img/core-img/search-icon.png" alt="Search" />
-                      </a>
+                      <Link to="#" id="search-btn">
+                        <img src={search_icon} alt="Search" />
+                      </Link>
                     </div>
                     <div className="login-register-btn">
-                      <a href="#">Login</a>
+                      <Link to="#">Login</Link>
                       <span> / </span>
-                      <a href="#"> Register</a>
+                      <Link to="#"> Register</Link>
                     </div>
                   </div>
                 </nav>
