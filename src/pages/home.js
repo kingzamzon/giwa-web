@@ -59,11 +59,8 @@ export default class HomePage extends React.Component {
         <div className="container">
             <div className="row">
                 <div className="col-12">
-                <OwlCarousel items={3}
-className="mosh-service-slides owl-theme"
-loop
->
-<div className="single-service-area text-center">
+                <OwlCarousel items={3} className="mosh-service-slides owl-theme" loop>
+                        <div className="single-service-area text-center">
                             <h2>01.</h2>
                             <h4>No1 in Sales!</h4>
                             <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul.</p>

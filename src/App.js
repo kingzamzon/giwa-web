@@ -4,6 +4,10 @@ import FooterComponent from "./components/footerComponent";
 import HeaderComponent from "./components/headerComponent";
 import HomePage from "./pages/home";
 import AboutUs from "./pages/aboutus";
+import Services from "./pages/services";
+import Portfolio from "./pages/portfolio";
+import Blog from "./pages/blog";
+import Contact from "./pages/contact";
 import { Route, Switch } from 'react-router-dom';
 
 function App() {
@@ -18,7 +22,11 @@ function App() {
           <Switch>
             <Route path="/" component={HomePage} exact />
             <Route path="/aboutus" component={AboutUs} />
-            <Route path="/shop" component={HomePage} />
+            <Route path="/services" component={Services} />
+            <Route path="/portfolio" component={Portfolio} />
+            <Route path="/portfolio" component={Portfolio} />
+            <Route path="/blog" component={Blog} />
+            <Route path="/contact" component={Contact} />
           </Switch>
         </div>
       {/* </div> */}

@@ -23,7 +23,7 @@ export default class AboutUs extends React.Component {
   render() {
     return (
         <div>
-            <div className="mosh-breadcumb-area" style={{ background: `url("${breadcumb}")` }}>
+            <div className="mosh-breadcumb-area" style={{ backgroundImage: `url("${breadcumb}")` }}>
                 <div className="container h-100">
                     <div className="row h-100 align-items-center">
                         <div className="col-12">
